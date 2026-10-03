@@ -1,7 +1,0 @@
-Command exited with non-zero status 255
-{"vcs1":{"timestamp_begin":1790746156.374136547, "rt":12.69, "ut":0.05, "st":0.04}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1790746156.091780225}
-{"VCS_COMP_START_TIME": 1790746156.091780225}
-{"VCS_COMP_END_TIME": 1790746169.091646350}
-{"VCS_USER_OPTIONS": "-full64 -sverilog -timescale=1ns/1ps -debug_access+all -kdb -f filelist_fft.f -top tb_selfchecking_fft_accel_top_1024 -l compile_fft.log"}
-{"vcs1": {"peak_mem": 534212}}

@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1790747508.799460251, "rt":1.80, "ut":0.08, "st":0.03}}
-{"vcselab":{"timestamp_begin":1790747510.634644909, "rt":2.00, "ut":0.10, "st":0.05}}
-{"link":{"timestamp_begin":1790747512.658380026, "rt":0.58, "ut":0.05, "st":0.02}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1790747508.633833654}
-{"VCS_COMP_START_TIME": 1790747508.633833654}
-{"VCS_COMP_END_TIME": 1790747513.271915539}
-{"VCS_USER_OPTIONS": "-full64 -sverilog ../rtl/fft_nexhus/xpm_memory_tdpram_model.sv -l xpm_test.log"}
-{"vcs1": {"peak_mem": 370192}}
-{"vcselab": {"peak_mem": 235356}}
