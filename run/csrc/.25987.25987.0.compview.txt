@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1790747168.429910324, "rt":1.81, "ut":0.04, "st":0.01}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1790747168.256161482}
+{"VCS_COMP_START_TIME": 1790747168.256161482}
+{"VCS_COMP_END_TIME": 1790747170.274252105}
+{"VCS_USER_OPTIONS": "-full64 -sverilog ../rtl/fft_nexhus/xpm_memory_tdpram_model.sv -l xpm_test.log"}
+{"vcs1": {"peak_mem": 355704}}

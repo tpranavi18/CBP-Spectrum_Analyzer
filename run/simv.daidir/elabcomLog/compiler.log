@@ -1,0 +1,9 @@
+*design* DebussyLib (btIdent Verdi_U-2023.03)
+Command arguments:  -lib  simv.daidir/work  -saveLevel  -elab  simv.daidir/kdb  -simflow  -simdir  simv.daidir/kdb_libs  -topfile  simv.daidir/.elabcomTopFile  -pkgfile  simv.daidir/.elabcomPkgFile  -ssv  -ssy  -Lf  work  +disable_message+C00380+C00381  +disable_message+C00388+C00389  -SNPS_ELABCOM  -saveElab 
+
+*Warning* Failed to find the specified instance parameter WRITE_DATA_WIDTH_A in the master xpm_memory_tdpram
+"../rtl/fft_nexhus/bram_memeory.sv", 59: 
+
+*Warning* Failed to find the specified instance parameter WRITE_DATA_WIDTH_B in the master xpm_memory_tdpram
+"../rtl/fft_nexhus/bram_memeory.sv", 59: 
+Total	0 error(s),   2 warning(s)

@@ -1,0 +1,14 @@
+==========================================
+FFT 1024 Simulation Summary Report
+==========================================
+Total bins                : 1024
+Exact matches             : 1024
+Within +/-1 tolerance     : 1024
+Within +/-2 tolerance     : 1024
+Within +/-3 tolerance     : 1024
+Outside +/-3 tolerance    : 0
+Reported mismatches       : 0
+Maximum absolute error    : 0
+
+Overall Result            : PASS
+==========================================

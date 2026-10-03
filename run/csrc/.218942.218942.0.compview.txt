@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1789798666.203007729, "rt":4.63, "ut":3.42, "st":0.14}}
+{"vcselab":{"timestamp_begin":1789798670.866752315, "rt":1.15, "ut":0.11, "st":0.03}}
+{"link":{"timestamp_begin":1789798672.043746939, "rt":0.23, "ut":0.17, "st":0.06}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1789798665.992922725}
+{"VCS_COMP_START_TIME": 1789798665.992922725}
+{"VCS_COMP_END_TIME": 1789798672.345652791}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm -debug_access+all -kdb -f uart_filelist.f -l compile.log"}
+{"vcs1": {"peak_mem": 534308}}
+{"vcselab": {"peak_mem": 251832}}
