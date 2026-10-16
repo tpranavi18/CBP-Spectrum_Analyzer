@@ -1,0 +1,90 @@
+Command: /home/student/Documents/CBP-Spectrum_Analyzer/run/./simv -l sim.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03_Full64; Runtime version U-2023.03_Full64;  Oct 14 14:40 2026
+Addressing configuration for axi_interconnect instance tb_veerall_top.dut.u_periph_subsys.u_interconnect.axi_interconnect_inst
+ 0 ( 0): 40000000 / 12 -- 40000000-40000fff
+ 1 ( 0): 40002000 / 12 -- 40002000-40002fff
+ 2 ( 0): 40004000 / 12 -- 40004000-40004fff
+ 3 ( 0): 4000c000 / 12 -- 4000c000-4000cfff
+ 4 ( 0): 4000e000 / 12 -- 4000e000-4000efff
+ 5 ( 0): 40008000 / 12 -- 40008000-40008fff
+ 6 ( 0): 4000a000 / 12 -- 4000a000-4000afff
+ 7 ( 0): 00000000 / 16 -- 00000000-0000ffff
+ 8 ( 0): 00010000 / 16 -- 00010000-0001ffff
+ 9 ( 0): 40006000 / 12 -- 40006000-40006fff
+10 ( 0): 40010000 / 12 -- 40010000-40010fff
+11 ( 0): 40012000 / 12 -- 40012000-40012fff
+12 ( 0): 40014000 / 12 -- 40014000-40014fff
+13 ( 0): 40016000 / 12 -- 40016000-40016fff
+14 ( 0): 40018000 / 12 -- 40018000-40018fff
+15 ( 0): 4001a000 / 12 -- 4001a000-4001afff
+16 ( 0): 4001c000 / 12 -- 4001c000-4001cfff
+17 ( 0): 4001e000 / 12 -- 4001e000-4001efff
+================================================================================
+ STARTING VERIFICATION: RISC-V VeeR EL2 + AXI + DSP IPs SPECTRUM ANALYZER SoC 
+================================================================================
+[PASS] TC-01: Reset Assertion & Release | Reset held for 100ns, cleanly released. System entered running state.
+  [410000 ns] [VeeR IFU FETCH #1] PC/ARADDR = 0x00000000
+  [650000 ns] [VeeR IFU FETCH #2] PC/ARADDR = 0x00000004
+[PASS] TC-02: Interconnect Basic Connectivity | Verified AXI read/write to IMEM and DMEM memories.
+  [890000 ns] [VeeR IFU FETCH #3] PC/ARADDR = 0x00000008
+  [1130000 ns] [VeeR IFU FETCH #4] PC/ARADDR = 0x0000000c
+  [1370000 ns] [VeeR IFU FETCH #5] PC/ARADDR = 0x00000000
+  [1650000 ns] [VeeR IFU FETCH #6] PC/ARADDR = 0x00000004
+  [1930000 ns] [VeeR IFU FETCH #7] PC/ARADDR = 0x00000008
+  [2210000 ns] [VeeR IFU FETCH #8] PC/ARADDR = 0x0000000c
+  [2490000 ns] [VeeR IFU FETCH #9] PC/ARADDR = 0x00000008
+  [2730000 ns] [VeeR IFU FETCH #10] PC/ARADDR = 0x0000000c
+[PASS] TC-03: Address Decoding Accuracy | All real peripheral bases verified at exact spreadsheet addresses.
+[PASS] TC-04: Unmapped Address & Error Handling | Dummy slaves and unmapped spaces safely returned DECERR (2'b11).
+[PASS] TC-05: Back-to-Back Access Stress | 8 back-to-back writes and reads completed without bus hang.
+[PASS] TC-06: Peripheral Register Config | Timer prescaler and peripheral registers retention verified.
+[PASS] TC-07: ADC Sample Acquisition & FIFO | ADC triggered, sample 0xABC captured and verified in register and FIFO.
+[PASS] TC-08: FIR Filter Config | Coefficients loaded and verified via AXI-Lite.
+[PASS] TC-09: FFT Numerical Data Buffer | Written complex test vector into FFT memory and verified readback.
+  [12680000 ns] [FFT STATUS] poll=1 STATUS=0x00000002 BUSY=1 DONE=0
+  [13060000 ns] [FFT STATUS] poll=2 STATUS=0x00000002 BUSY=1 DONE=0
+  [13300000 ns] [FFT STATUS] poll=3 STATUS=0x00000002 BUSY=1 DONE=0
+  [136260000 ns] [FFT STATUS] poll=500 STATUS=0x00000002 BUSY=1 DONE=0
+  [256260000 ns] [FFT STATUS] poll=1000 STATUS=0x00000002 BUSY=1 DONE=0
+  [376260000 ns] [FFT STATUS] poll=1500 STATUS=0x00000002 BUSY=1 DONE=0
+  [496260000 ns] [FFT STATUS] poll=2000 STATUS=0x00000002 BUSY=1 DONE=0
+  [616260000 ns] [FFT STATUS] poll=2500 STATUS=0x00000002 BUSY=1 DONE=0
+  [730500000 ns] [FFT DONE] Detected after 2976 polls | STATUS=0x00000001 (BUSY was 1)
+[PASS] TC-10: FFT Control & Status | Start pulse issued; FFT completion verified via status polling.
+[PASS] TC-11: FFT Memory Boundary | Verified 4 KB memory window boundary access at 0x4000_AFFC.
+[PASS] TC-12: UART Functionality | Baud divisor set to 434 (115200 baud), byte 0x55 written to THR.
+[PASS] TC-13: GPIO Output & Bit Operations | DIR, DATA_O, SET_O, CLR_O verified on physical pins.
+[PASS] TC-14: Timer Count Progression | Timer loaded, enabled, and counter progress confirmed.
+[PASS] TC-15: Complete DSP Data Path | Data propagated from ADC/FIR stream to FFT input memory.
+[PASS] TC-16: CPU Instruction Fetch | VeeR IFU successfully issued 3039 fetches from IMEM.
+[PASS] TC-17: FFT Result Retrieval | Verified FFT memory window read access at 0x4000_A000.
+[PASS] TC-18: Repeated Processing Isolation | Consecutive writes updated state cleanly without stale data retention.
+[PASS] TC-19: Warm Reset Recovery | System recovered cleanly after mid-operation reset.
+[PASS] TC-20: Peripheral Coexistence | Concurrent access to GPIO and Timer showed no interference.
+[PASS] TC-21: Interrupt Architecture & Routing | Peripheral interrupt lines observable and wired to CPU PIC extintsrc_req.
+[PASS] TC-22: Byte Strobe & Boundary Stress | Byte strobe masking verified on memory write.
+
+========================================================
+VeeR EL2 + AXI + DSP IPs SoC Verification Summary
+========================================================
+Total tests            : 22
+Passed                 : 22
+Failed                 : 0
+Blocked / Not Supported: 0
+AXI transactions       : 3048
+AXI errors             : 4
+Peripheral tests       : 4
+DSP tests              : 7
+Interrupt tests        : 1
+Integration tests      : 10
+========================================================
+Overall result: PASS
+
+$finish called from file "../tb/tb_veerall_top.sv", line 940.
+$finish at simulation time            738120000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 738120000 ps
+CPU Time:      0.970 seconds;       Data structure size:   0.9Mb
+Wed Oct 14 14:40:24 2026

@@ -1,0 +1,81 @@
+Command: /home/student/Documents/CBP-Spectrum_Analyzer/firmware/./simv_firmware +VHX=sa_firmware_rv32.vhx -l sim_firmware.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03_Full64; Runtime version U-2023.03_Full64;  Oct 16 12:39 2026
+Addressing configuration for axi_interconnect instance tb_firmware_driven.dut.u_periph_subsys.u_interconnect.axi_interconnect_inst
+ 0 ( 0): 40000000 / 12 -- 40000000-40000fff
+ 1 ( 0): 40002000 / 12 -- 40002000-40002fff
+ 2 ( 0): 40004000 / 12 -- 40004000-40004fff
+ 3 ( 0): 4000c000 / 12 -- 4000c000-4000cfff
+ 4 ( 0): 4000e000 / 12 -- 4000e000-4000efff
+ 5 ( 0): 40008000 / 12 -- 40008000-40008fff
+ 6 ( 0): 4000a000 / 12 -- 4000a000-4000afff
+ 7 ( 0): 00000000 / 16 -- 00000000-0000ffff
+ 8 ( 0): 00010000 / 16 -- 00010000-0001ffff
+ 9 ( 0): 40006000 / 12 -- 40006000-40006fff
+10 ( 0): 40010000 / 12 -- 40010000-40010fff
+11 ( 0): 40012000 / 12 -- 40012000-40012fff
+12 ( 0): 40014000 / 12 -- 40014000-40014fff
+13 ( 0): 40016000 / 12 -- 40016000-40016fff
+14 ( 0): 40018000 / 12 -- 40018000-40018fff
+15 ( 0): 4001a000 / 12 -- 4001a000-4001afff
+16 ( 0): 4001c000 / 12 -- 4001c000-4001cfff
+17 ( 0): 4001e000 / 12 -- 4001e000-4001efff
+================================================================================
+  STARTING FIRMWARE-DRIVEN VERIFICATION SUITE -- SPECTRUM ANALYZER SoC
+  VeeR EL2 (RV32IMC) + 3x18 AXI Interconnect + DSP Acceleration Pipeline
+================================================================================
+[LOADER] Command-line plusarg +VHX=sa_firmware_rv32.vhx detected.
+[LOADER] Successfully loaded Verilog HEX from: sa_firmware_rv32.vhx
+[PASS] SA-BOOT-02   | Instruction Memory Firmware Image Initialization | Loaded verified RV32 bare-metal image into IMEM at 0x0000_0000
+[TB] Deasserting system reset (rst_n = 1)...
+[PASS] SA-BOOT-01   | Clock and Reset Behavior                      | Reset held for 100ns and cleanly released on 50MHz clock
+[PASS] SA-BOOT-03   | Correct Reset-Vector Instruction Fetch        | VeeR IFU fetched 1 instructions from 0x0000_0000
+[PASS] SA-ADC-02    | ADC Valid Sample Acceptance Through External Interface | Injected 12-bit sample 0x5A5 with sample_valid handshake
+[PASS] SA-ADC-03    | ADC Sample Value Integrity                    | Observed sample 0x5A5 on physical ADC interface pins
+
+[BOOT] OK
+[MEM] OK
+[GPIO] OK
+[TIMER] OK
+[ADC] OK
+[PASS] SA-FIR-03    | FIR Input Sample Handshake                    | Applied sample 0x1000 with s_axis_tvalid & observed tready acknowledgment
+[PASS] SA-FIR-04    | FIR Output Sample Handshake                   | Observed filtered sample on m_axis_tdata: 0x0000010000
+[PASS] SA-FIR-06    | FIR Impulse Input Response                    | Impulse propagated through internal 32-tap MAC pipeline
+[TB] Launching End-to-End DSP Pipeline Streaming via dsp_pipeline_bridge...
+[PASS] SA-E2E-04    | ADC-to-FIR Physical RTL Connection & Stream Transfer | Streamed 48 ADC samples into FIR via dsp_pipeline_bridge
+[PASS] SA-E2E-05    | FIR-to-FFT Physical RTL Connection & Memory DMA | Transferred 32 filtered samples into FFT BRAM (0x4000_A000) & triggered FFT
+[FIR] OK
+[FFT] OK
+=== ALL FIRMWARE CHECKS COMPLETED: PASS ===[PASS] SA-FFT-02    | FFT Accelerator Initialization & Start Operation | Observed FFT status DONE=1 (STATUS = 0x00000001)
+[PASS] SA-FFT-07    | FFT Output Verification (Known DC Vector)     | Retrieved Bin 0 = 0x20000000 (Real = 0x2000, Imag = 0x0000)
+[PASS] SA-FFT-10    | FFT Output Verification (Known Nyquist Tone)  | Retrieved Bin 512 = 0x20000000 (Real = 0x2000, Imag = 0x0000)
+[PASS] SA-AXI-01    | CPU-Originated Instruction and Data Transactions | Observed 116259 IFU fetches and 1187 LSU writes
+[PASS] SA-AXI-08    | Unmapped Address Response Behavior (DECERR)   | Watchdog aperture 0x4000_6000 returned AXI DECERR (2'b11)
+[PASS] SA-UART-03   | UART Transmit Operation                       | Captured 120 characters transmitted over UART
+[PASS] SA-UART-06   | Firmware Diagnostic Telemetry Verification    | Received complete diagnostic banner and PASS confirmation over UART
+[PASS] SA-GPIO-03   | GPIO Output Configuration and Pin Behavior    | Observed GPIO pin state: 0xzzz45671
+[PASS] SA-TIMER-01  | Timer Register Access & Configuration         | TIMER_LOAD configured with value: 0x00000200
+[PASS] SA-ROB-06    | Bounded Completion for Test Suite             | Firmware completed all tasks within bounded execution window
+[PASS] SA-ROB-09    | Reproducible Run from VCS Command             | Clean execution completed without simulator exceptions
+
+================================================================================
+   FINAL REGRESSION SUMMARY -- SPECTRUM ANALYZER SoC
+================================================================================
+  Total Tests Recorded  : 21
+  Passing Tests         : 21
+  Failing Tests         : 0
+  Architectural Blocked : 0
+  Total IFU Fetches     : 116261
+  Total LSU Writes      : 1187
+  Total LSU Reads       : 10422
+  Total UART Characters : 120
+================================================================================
+>> OVERALL VERIFICATION STATUS: ALL EXECUTED TESTS PASSED <<
+
+$finish called from file "tb_firmware_driven.sv", line 801.
+$finish at simulation time          20781390000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 20781390000 ps
+CPU Time:     24.340 seconds;       Data structure size:   1.2Mb
+Fri Oct 16 12:40:01 2026

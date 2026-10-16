@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1792134556.085989412, "rt":15.24, "ut":12.75, "st":0.42}}
+{"vcselab":{"timestamp_begin":1792134571.392780236, "rt":3.74, "ut":0.53, "st":0.08}}
+{"link":{"timestamp_begin":1792134575.173539530, "rt":0.35, "ut":0.18, "st":0.14}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1792134555.697356808}
+{"VCS_COMP_START_TIME": 1792134555.697356808}
+{"VCS_COMP_END_TIME": 1792134575.641296729}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -timescale=1ns/1ps -debug_access+all -kdb -f filelist_firmware_vcs.f -l compile_firmware.log -o simv_firmware"}
+{"vcs1": {"peak_mem": 556504}}
+{"vcselab": {"peak_mem": 279612}}

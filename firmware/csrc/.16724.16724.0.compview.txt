@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1792134501.698569196, "rt":4.97, "ut":0.69, "st":0.15}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1792134501.287802446}
+{"VCS_COMP_START_TIME": 1792134501.287802446}
+{"VCS_COMP_END_TIME": 1792134506.723840963}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -timescale=1ns/1ps -debug_access+all -kdb -f filelist_firmware_vcs.f -l compile_firmware.log -o simv_firmware"}
+{"vcs1": {"peak_mem": 543196}}

@@ -1,0 +1,356 @@
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'Rocky Linux release 8.10 (Green Obsidian)' is not supported 
+  on 'x86_64' officially, assuming linux compatibility by default. Set 
+  VCS_ARCH_OVERRIDE to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+Command: vcs -full64 -sverilog -timescale=1ns/1ps -debug_access+all -kdb -f filelist_top.f \
+-l compile.log
+                         Chronologic VCS (TM)
+         Version U-2023.03_Full64 -- Wed Oct 14 14:39:49 2026
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/common_defines.vh'
+Parsing design file '../rtl/Cores-VeeR-EL2/design/include/el2_def.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_pdef.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/include/el2_def.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lib/el2_assert.sv'
+Parsing design file '../rtl/Cores-VeeR-EL2/design/el2_mubi_pkg.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/common_defines.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_mubi_pkg.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/el2_lockstep_pkg.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_lockstep_pkg.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lib/el2_lib.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lib/el2_lib.sv'.
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lib/el2_lib.sv'.
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lib/el2_lib.sv'.
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lib/el2_lib.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lib/el2_mem_if.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lib/el2_mem_if.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lib/el2_prim_generic_buf.sv'
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lib/el2_prim_buf.sv'
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lib/beh_lib.sv'
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lib/mem_lib.sv'
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lib/ahb_to_axi4.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lib/ahb_to_axi4.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lib/axi4_to_ahb.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lib/axi4_to_ahb.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/el2_mem.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_mem.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/el2_pic_ctrl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_pic_ctrl.sv'.
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/pic_map_auto.svh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_pic_ctrl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/el2_dma_ctrl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_dma_ctrl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/el2_pmp.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_pmp.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_aln_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_aln_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_compress_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_compress_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_ifc_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_ifc_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_bp_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_bp_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_ic_mem.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_ic_mem.sv'.
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_ic_mem.sv'.
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_ic_mem.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_mem_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_mem_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_iccm_mem.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu_iccm_mem.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/ifu/el2_ifu.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_decode_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_decode_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_gpr_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_gpr_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_ib_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_ib_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_pmp_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_pmp_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_tlu_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_tlu_ctl.sv'.
+Parsing included file '../rtl/Cores-VeeR-EL2/design/include/el2_dec_csr_equ_m.svh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_tlu_ctl.sv'.
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_tlu_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_trigger.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec_trigger.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/dec/el2_dec.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/exu/el2_exu_alu_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/exu/el2_exu_alu_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/exu/el2_exu_mul_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/exu/el2_exu_mul_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/exu/el2_exu_div_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/exu/el2_exu_div_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/exu/el2_exu.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/exu/el2_exu.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_clkdomain.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_clkdomain.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_addrcheck.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_addrcheck.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_lsc_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_lsc_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_stbuf.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_stbuf.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_bus_buffer.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_bus_buffer.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_bus_intf.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_bus_intf.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_ecc.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_ecc.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_dccm_mem.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_dccm_mem.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_dccm_ctl.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_dccm_ctl.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_trigger.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/lsu/el2_lsu_trigger.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dbg/el2_dbg.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/dbg/el2_dbg.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dmi/dmi_mux.v'
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dmi/dmi_wrapper.v'
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dmi/dmi_jtag_to_core_sync.v'
+Parsing design file '../rtl/Cores-VeeR-EL2/design/dmi/rvjtag_tap.v'
+Parsing design file '../rtl/Cores-VeeR-EL2/design/el2_veer.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_veer.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/el2_veer_lockstep.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_veer_lockstep.sv'.
+Parsing design file '../rtl/Cores-VeeR-EL2/design/el2_veer_wrapper.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/common_defines.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_veer_wrapper.sv'.
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/Cores-VeeR-EL2/design/el2_veer_wrapper.sv'.
+Parsing design file '../rtl/veer_wrapper.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/common_defines.vh'.
+Back to file '../rtl/veer_wrapper.sv'.
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/el2_param.vh'.
+Back to file '../rtl/veer_wrapper.sv'.
+Parsing design file '../rtl/axi_64to32_adapter.sv'
+Parsing design file '../rtl/axi_imem_slave.sv'
+Parsing design file '../rtl/axi_dmem_slave.sv'
+Parsing design file '../rtl/interconnect/arbiter.v'
+Parsing design file '../rtl/interconnect/priority_encoder.v'
+Parsing design file '../rtl/interconnect/axi_interconnect.v'
+Parsing design file '../rtl/interconnect/axi_interconnect_wrap_3x18.v'
+Parsing design file '../rtl/common/axi4lite_slave_adapter.sv'
+Parsing design file '../rtl/common/axi4_to_axi4lite_bridge.sv'
+Parsing design file '../rtl/common/axi_dummy_slave.sv'
+Parsing design file '../rtl/uart/axi_internal_fifo.v'
+Parsing design file '../rtl/uart/uart_parity_bit_compute.v'
+Parsing design file '../rtl/uart/uart_receiver.v'
+Parsing design file '../rtl/uart/uart_transmitter.v'
+Parsing design file '../rtl/uart/uart_controller.v'
+Parsing design file '../rtl/uart/axi_uart_top.v'
+Parsing included file '../rtl/uart/include/axi_uart_defines.vh'.
+Back to file '../rtl/uart/axi_uart_top.v'.
+Parsing included file '../rtl/uart/include/axi_uart.vh'.
+Back to file '../rtl/uart/axi_uart_top.v'.
+Parsing design file '../rtl/gpio/gpio_bit.sv'
+Parsing design file '../rtl/gpio/gpio_regs.sv'
+Parsing design file '../rtl/gpio/gpio_wrapper.sv'
+Parsing design file '../rtl/gpio/gpio_axi.sv'
+Parsing design file '../rtl/timer/timer_core.sv'
+Parsing design file '../rtl/timer/timer_regs.sv'
+Parsing design file '../rtl/timer/timer_axi.sv'
+Parsing design file '../rtl/fir/axis_fifo.v'
+Parsing design file '../rtl/fir/fir_dsp.v'
+Parsing design file '../rtl/fir/fir_axi_lite.v'
+Parsing design file '../rtl/fir/fir_top.v'
+Parsing design file '../rtl/adc/adc_pkg.sv'
+Parsing design file '../rtl/adc/adc_fifo.sv'
+Parsing design file '../rtl/adc/adc_sample_acquisition.sv'
+Parsing design file '../rtl/adc/adc_sampling_scheduler.sv'
+Parsing design file '../rtl/adc/adc_registers.sv'
+Parsing design file '../rtl/adc/adc_axi_lite_slave.sv'
+Parsing design file '../rtl/adc/adc_controller.sv'
+Parsing design file '../rtl/fft_nexhus/xpm_memory_tdpram_model.sv'
+Parsing design file '../rtl/fft_nexhus/add_sub_sat_s1_q15.sv'
+Parsing design file '../rtl/fft_nexhus/bram_memeory.sv'
+Parsing design file '../rtl/fft_nexhus/cmulq15.sv'
+Parsing design file '../rtl/fft_nexhus/fft_atomic_p1.sv'
+Parsing design file '../rtl/fft_nexhus/fft_ctrl_axil.sv'
+Parsing design file '../rtl/fft_nexhus/fft_loadstore_wrapper.sv'
+Parsing design file '../rtl/fft_nexhus/fft_mem_axi4_slave.sv'
+Parsing design file '../rtl/fft_nexhus/fft_stage_core.sv'
+Parsing design file '../rtl/fft_nexhus/fft_stage_core_controller.sv'
+Parsing design file '../rtl/fft_nexhus/fft_top.sv'
+Parsing design file '../rtl/fft_nexhus/twiddle_rom.sv'
+Parsing design file '../rtl/fft_nexhus/fft_accel_fft_top.sv'
+Parsing design file '../rtl/veerall_axi_ips_top.sv'
+Parsing design file '../rtl/veerall_top.sv'
+Parsing included file '../rtl/Cores-VeeR-EL2/snapshots/spectrum_analyzer/common_defines.vh'.
+Back to file '../rtl/veerall_top.sv'.
+Parsing design file '../tb/tb_veerall_top.sv'
+Top Level Modules:
+       tb_veerall_top
+
+Warning-[AOUP] Attempt to override undefined parameter
+../rtl/fft_nexhus/bram_memeory.sv, 59
+  Attempting to override undefined parameter "WRITE_DATA_WIDTH_A", will ignore
+  it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../rtl/fft_nexhus/bram_memeory.sv, 59
+  Attempting to override undefined parameter "WRITE_DATA_WIDTH_B", will ignore
+  it.
+
+TimeScale is 1 ns / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+../rtl/veer_wrapper.sv, 146
+veer_wrapper, "el2_veer_wrapper #(.pt(pt)) veer_core( .clk (clk),  .rst_l (rst_l),  .dbg_rst_l (rst_l),  .rst_vec (31'b0),  .nmi_int (1'b0),  .nmi_vec (31'b0),  .jtag_id (31'b0),  .ifu_axi_awvalid (ifu_axi_awvalid),  .ifu_axi_awready (ifu_axi_awready),  .ifu_axi_awid (ifu_axi_awid),  .ifu_axi_awaddr (ifu_axi_awaddr),  .ifu_axi_awregion (ifu_axi_awregion),  .ifu_axi_awlen (ifu_axi_awlen),  .ifu_axi_awsize (ifu_axi_awsize),  .ifu_axi_awburst (ifu_axi_awburst),  .ifu_axi_awlock (ifu_axi_awlock),  .ifu_axi_awcache (ifu_axi_awcache),  .ifu_axi_awprot (ifu_axi_awprot),  .ifu_axi_awqos (ifu_axi_awqos),  .ifu_axi_wvalid (ifu_axi_wvalid),  .ifu_axi_wready (ifu_axi_wready),  .ifu_axi_wdata (ifu_axi_wdata),  .ifu_axi_wstrb (ifu_axi_wstrb),  .ifu_axi_wlast (ifu_axi_wlast),  .ifu_ ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+../rtl/veerall_axi_ips_top.sv, 1046
+"fft_accel_top #(1024, 16, 32, 4, ) u_fft_accel( .clk (clk),  .rst_n ((~rst)),  .S_AXIL_AWADDR (fft_axil_awaddr),  .S_AXIL_AWVALID (fft_axil_awvalid),  .S_AXIL_AWREADY (fft_axil_awready),  .S_AXIL_WDATA (fft_axil_wdata),  .S_AXIL_WSTRB (fft_axil_wstrb),  .S_AXIL_WVALID (fft_axil_wvalid),  .S_AXIL_WREADY (fft_axil_wready),  .S_AXIL_BRESP (fft_axil_bresp),  .S_AXIL_BVALID (fft_axil_bvalid),  .S_AXIL_BREADY (fft_axil_bready),  .S_AXIL_ARADDR (fft_axil_araddr),  .S_AXIL_ARVALID (fft_axil_arvalid),  .S_AXIL_ARREADY (fft_axil_arready),  .S_AXIL_RDATA (fft_axil_rdata),  .S_AXIL_RRESP (fft_axil_rresp),  .S_AXIL_RVALID (fft_axil_rvalid),  .S_AXIL_RREADY (fft_axil_rready),  .S_AXI_AWID (fft_mem_awid),  .S_AXI_AWADDR (fft_mem_awaddr),  .S_AXI_AWLEN (fft_mem_awlen), ... "
+  The following 32-bit expression is connected to 16-bit port "S_AXIL_AWADDR" 
+  of module "fft_accel_top", instance "u_fft_accel".
+  Expression: fft_axil_awaddr
+  Instantiated module defined at: "../rtl/fft_nexhus/fft_accel_fft_top.sv", 3
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+../rtl/veerall_axi_ips_top.sv, 1046
+"fft_accel_top #(1024, 16, 32, 4, ) u_fft_accel( .clk (clk),  .rst_n ((~rst)),  .S_AXIL_AWADDR (fft_axil_awaddr),  .S_AXIL_AWVALID (fft_axil_awvalid),  .S_AXIL_AWREADY (fft_axil_awready),  .S_AXIL_WDATA (fft_axil_wdata),  .S_AXIL_WSTRB (fft_axil_wstrb),  .S_AXIL_WVALID (fft_axil_wvalid),  .S_AXIL_WREADY (fft_axil_wready),  .S_AXIL_BRESP (fft_axil_bresp),  .S_AXIL_BVALID (fft_axil_bvalid),  .S_AXIL_BREADY (fft_axil_bready),  .S_AXIL_ARADDR (fft_axil_araddr),  .S_AXIL_ARVALID (fft_axil_arvalid),  .S_AXIL_ARREADY (fft_axil_arready),  .S_AXIL_RDATA (fft_axil_rdata),  .S_AXIL_RRESP (fft_axil_rresp),  .S_AXIL_RVALID (fft_axil_rvalid),  .S_AXIL_RREADY (fft_axil_rready),  .S_AXI_AWID (fft_mem_awid),  .S_AXI_AWADDR (fft_mem_awaddr),  .S_AXI_AWLEN (fft_mem_awlen), ... "
+  The following 32-bit expression is connected to 16-bit port "S_AXIL_ARADDR" 
+  of module "fft_accel_top", instance "u_fft_accel".
+  Expression: fft_axil_araddr
+  Instantiated module defined at: "../rtl/fft_nexhus/fft_accel_fft_top.sv", 3
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+../rtl/veerall_top.sv, 347
+"axi_64to32_adapter #(3, ID_WIDTH) u_ifu_adapter( .clk (clk),  .rst_l (rst_l),  .m_axi_awvalid (ifu64_awvalid),  .m_axi_awready (ifu64_awready),  .m_axi_awid (ifu64_awid),  .m_axi_awaddr (ifu64_awaddr),  .m_axi_awlen (ifu64_awlen),  .m_axi_awsize (ifu64_awsize),  .m_axi_awburst (ifu64_awburst),  .m_axi_awlock (ifu64_awlock),  .m_axi_awcache (ifu64_awcache),  .m_axi_awprot (ifu64_awprot),  .m_axi_awqos (ifu64_awqos),  .m_axi_awregion (ifu64_awregion),  .m_axi_wvalid (ifu64_wvalid),  .m_axi_wready (ifu64_wready),  .m_axi_wdata (ifu64_wdata),  .m_axi_wstrb (ifu64_wstrb),  .m_axi_wlast (ifu64_wlast),  .m_axi_bvalid (ifu64_bvalid),  .m_axi_bready (ifu64_bready),  .m_axi_bid (ifu64_bid),  .m_axi_bresp (ifu64_bresp),  .m_axi_arvalid (ifu64_arvalid),  .m_axi_arr ... "
+  The following 4-bit expression is connected to 8-bit port "s_axi_awregion" 
+  of module "axi_64to32_adapter", instance "u_ifu_adapter".
+  Expression: s00_axi_awregion
+  Instantiated module defined at: "../rtl/axi_64to32_adapter.sv", 25
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+../rtl/veerall_top.sv, 347
+"axi_64to32_adapter #(3, ID_WIDTH) u_ifu_adapter( .clk (clk),  .rst_l (rst_l),  .m_axi_awvalid (ifu64_awvalid),  .m_axi_awready (ifu64_awready),  .m_axi_awid (ifu64_awid),  .m_axi_awaddr (ifu64_awaddr),  .m_axi_awlen (ifu64_awlen),  .m_axi_awsize (ifu64_awsize),  .m_axi_awburst (ifu64_awburst),  .m_axi_awlock (ifu64_awlock),  .m_axi_awcache (ifu64_awcache),  .m_axi_awprot (ifu64_awprot),  .m_axi_awqos (ifu64_awqos),  .m_axi_awregion (ifu64_awregion),  .m_axi_wvalid (ifu64_wvalid),  .m_axi_wready (ifu64_wready),  .m_axi_wdata (ifu64_wdata),  .m_axi_wstrb (ifu64_wstrb),  .m_axi_wlast (ifu64_wlast),  .m_axi_bvalid (ifu64_bvalid),  .m_axi_bready (ifu64_bready),  .m_axi_bid (ifu64_bid),  .m_axi_bresp (ifu64_bresp),  .m_axi_arvalid (ifu64_arvalid),  .m_axi_arr ... "
+  The following 4-bit expression is connected to 8-bit port "s_axi_arregion" 
+  of module "axi_64to32_adapter", instance "u_ifu_adapter".
+  Expression: s00_axi_arregion
+  Instantiated module defined at: "../rtl/axi_64to32_adapter.sv", 25
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+../rtl/veerall_top.sv, 438
+"axi_64to32_adapter #(3, ID_WIDTH) u_lsu_adapter( .clk (clk),  .rst_l (rst_l),  .m_axi_awvalid (lsu64_awvalid),  .m_axi_awready (lsu64_awready),  .m_axi_awid (lsu64_awid),  .m_axi_awaddr (lsu64_awaddr),  .m_axi_awlen (lsu64_awlen),  .m_axi_awsize (lsu64_awsize),  .m_axi_awburst (lsu64_awburst),  .m_axi_awlock (lsu64_awlock),  .m_axi_awcache (lsu64_awcache),  .m_axi_awprot (lsu64_awprot),  .m_axi_awqos (lsu64_awqos),  .m_axi_awregion (lsu64_awregion),  .m_axi_wvalid (lsu64_wvalid),  .m_axi_wready (lsu64_wready),  .m_axi_wdata (lsu64_wdata),  .m_axi_wstrb (lsu64_wstrb),  .m_axi_wlast (lsu64_wlast),  .m_axi_bvalid (lsu64_bvalid),  .m_axi_bready (lsu64_bready),  .m_axi_bid (lsu64_bid),  .m_axi_bresp (lsu64_bresp),  .m_axi_arvalid (lsu64_arvalid),  .m_axi_arr ... "
+  The following 4-bit expression is connected to 8-bit port "s_axi_awregion" 
+  of module "axi_64to32_adapter", instance "u_lsu_adapter".
+  Expression: s01_axi_awregion
+  Instantiated module defined at: "../rtl/axi_64to32_adapter.sv", 25
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+../rtl/veerall_top.sv, 438
+"axi_64to32_adapter #(3, ID_WIDTH) u_lsu_adapter( .clk (clk),  .rst_l (rst_l),  .m_axi_awvalid (lsu64_awvalid),  .m_axi_awready (lsu64_awready),  .m_axi_awid (lsu64_awid),  .m_axi_awaddr (lsu64_awaddr),  .m_axi_awlen (lsu64_awlen),  .m_axi_awsize (lsu64_awsize),  .m_axi_awburst (lsu64_awburst),  .m_axi_awlock (lsu64_awlock),  .m_axi_awcache (lsu64_awcache),  .m_axi_awprot (lsu64_awprot),  .m_axi_awqos (lsu64_awqos),  .m_axi_awregion (lsu64_awregion),  .m_axi_wvalid (lsu64_wvalid),  .m_axi_wready (lsu64_wready),  .m_axi_wdata (lsu64_wdata),  .m_axi_wstrb (lsu64_wstrb),  .m_axi_wlast (lsu64_wlast),  .m_axi_bvalid (lsu64_bvalid),  .m_axi_bready (lsu64_bready),  .m_axi_bid (lsu64_bid),  .m_axi_bresp (lsu64_bresp),  .m_axi_arvalid (lsu64_arvalid),  .m_axi_arr ... "
+  The following 4-bit expression is connected to 8-bit port "s_axi_arregion" 
+  of module "axi_64to32_adapter", instance "u_lsu_adapter".
+  Expression: s01_axi_arregion
+  Instantiated module defined at: "../rtl/axi_64to32_adapter.sv", 25
+  Use +lint=PCWM for more details.
+
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+
+57 modules and 0 UDP read.
+recompiling module tb_veerall_top
+	However, due to incremental compilation, only 1 module needs to be compiled. 
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/home/student/snps_tools_target/vcs/U-2023.03/linux64/lib -L/home/student/snps_tools_target/vcs/U-2023.03/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _18465_archive_1.so \
+_prev_archive_1.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
+-luclinative /home/student/snps_tools_target/vcs/U-2023.03/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/home/student/snps_tools_target/vcs/U-2023.03/linux64/lib/vcs_save_restore_new.o \
+/home/student/snps_tools_target/verdi/U-2023.03-SP1/share/PLI/VCS/LINUX64/pli.a -ldl \
+-lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 8.964 seconds to compile + .620 seconds to elab + .410 seconds to link
+Verdi KDB elaboration done and the database successfully generated: 0 error(s), 2 warning(s)

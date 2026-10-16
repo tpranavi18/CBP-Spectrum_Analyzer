@@ -465,7 +465,7 @@ module soc_uart_fft_top #(
      * M05-M13 remain unused.
      * ============================================================ */
 
-    axi_interconnect_wrap_3x14 #(
+    axi_interconnect_wrap_3x18 #(
         .DATA_WIDTH        (DATA_WIDTH),
         .ADDR_WIDTH        (ADDR_WIDTH),
         .STRB_WIDTH        (STRB_WIDTH),
